@@ -1,19 +1,19 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.6",
   "pubdate": "2026-11-25",
-  "notes": "修复配音声音慢放约4倍（resample 插值位置公式写反，只取前1/4音频内容）\n修复 Speechify 48k WAV 文件头被当 PCM 导致 CapCut 草稿写入失败\n新增设置内「软件更新」与一键升级，支持多配音引擎与自定义端点",
+  "notes": "顶栏设置旁新增常驻「检查更新」入口；有新版按钮高亮，再点进入升级。含此前配音语速修复与一键升级功能。",
   "files": {
     "mac": {
-      "url": "https://github.com/zev0509/vox-releases/releases/download/v1.0.5/WhaleVox-Setup-1.0.5.dmg",
-      "sha256": "525cf4188746760661af962403be9b64036a5d42186612b24601cf054107b41f",
-      "size": 13438524,
-      "name": "WhaleVox-Setup-1.0.5.dmg"
+      "url": "https://github.com/zev0509/vox-releases/releases/download/v1.0.6/WhaleVox-Setup-1.0.6.dmg",
+      "sha256": "5efebed31d21beb186dc76fda81d515c5ff121ebd2779658b7cd4c55a6061f20",
+      "size": 13438490,
+      "name": "WhaleVox-Setup-1.0.6.dmg"
     },
     "win": {
-      "url": "https://github.com/zev0509/vox-releases/releases/download/v1.0.5/WhaleVox-Setup-1.0.5.exe",
-      "sha256": "902123a7b0a4aaa8edba55b4a07d3fdb57b0e9e939fd5aa870f7e0d10b8b1bf0",
-      "size": 10531106,
-      "name": "WhaleVox-Setup-1.0.5.exe"
+      "url": "https://github.com/zev0509/vox-releases/releases/download/v1.0.6/WhaleVox-Setup-1.0.6.exe",
+      "sha256": "7e6c82787f03890abcb3428f94177f626f9aa96b5dfe6dd5ee3f35958b84b785",
+      "size": 10533799,
+      "name": "WhaleVox-Setup-1.0.6.exe"
     }
   }
 }
